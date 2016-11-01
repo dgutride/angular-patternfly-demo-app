@@ -16,6 +16,18 @@ angular.module('apf.containersModule',
         templateUrl: 'src/containers/dashboard/dashboard.html',
         controller: 'containers.dashboardController'
       })
+      .when('/compute/containers/dashboard2', {
+        templateUrl: 'src/containers/dashboard-2/dashboard.html',
+        controller: 'containers.dashboardController2'
+      })
+      .when('/compute/containers/dashboardkendo', {
+        templateUrl: 'src/containers/dashboard-kendo/dashboard.html',
+        controller: 'containers.dashboardKendoController'
+      })
+      .when('/compute/containers/dashboardgridstack', {
+        templateUrl: 'src/containers/dashboard-gridstack/dashboard.html',
+        controller: 'containers.dashboardGridstackController'
+      })
       .when('/compute/containers/projects', {
         templateUrl: 'src/containers/projects/projects.html',
         controller: 'containers.projectsController'

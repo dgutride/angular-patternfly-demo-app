@@ -49,6 +49,18 @@
                      "href":"#/compute/containers/dashboard"
                   },
                   {
+                     "title":"Dashboard-AngularDashboard",
+                     "href":"#/compute/containers/dashboard2"
+                  },
+                  {
+                     "title":"Dashboard-Kendo",
+                     "href":"#/compute/containers/dashboardkendo"
+                  },
+                  {
+                     "title":"Dashboard-Gridstack",
+                     "href":"#/compute/containers/dashboardgridstack"
+                  },
+                  {
                      "title":"Providers",
                      "href":"#/compute/containers/providers"
                   },

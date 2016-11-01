@@ -15,7 +15,11 @@ angular.module ('apf.appModule', [
   'apf.infrastructureModule',
   'apf.applicationsModule',
   'apf.reportsModule',
-  'apf.adminModule'
+  'apf.adminModule',
+  'ui.dashboard',
+  'ui.sortable',
+  'gridstack-angular',
+  'kendo.directives',
 ]).config(['$routeProvider', '$translateProvider',
   function ($routeProvider, $translateProvider) {
     'use strict';
